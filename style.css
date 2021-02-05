@@ -1,0 +1,145 @@
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 800px;
+}
+.header {
+  background-image: url("image/fon.jpg");
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-left: 20px;
+  float: left;
+}
+.menu li {
+  font-style: italic;
+  font-size: 25px;
+  list-style-type: none;
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid white;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: red;
+}
+h2,
+h3 {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.short {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+  margin-left: 15px;
+}
+.tovar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.detailed {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.list li {
+  list-style-type: none;
+  background: transparent url("image/shtora.png") no-repeat;
+  text-decoration: underline;
+  padding-left: 32px;
+  font-style: italic;
+  color: red;
+}
+.info {
+  width: 180px;
+  height: 15px;
+  background-color: #ffe; /* Цвет фона */
+  color: #930; /* Цвет текста */
+  font-size: 15px;
+}
+.comment {
+  width: 178px;
+  height: 75px;
+  background-color: #ffe; /* Цвет фона */
+  color: #930; /* Цвет текста */
+  font-size: 15px;
+}
+.forma {
+  width: 200px;
+  height: 200px;
+}
+.image {
+  padding: 20px;
+  background: #f0f0f0;
+  border: 1px solid #666;
+}
+.image:hover {
+  border: 1px solid transparent;
+  background: none;
+}
+input[type="email"]:focus {
+  background-color: brown;
+  color: black;
+}
+input,
+textarea[type="text"] {
+  text-transform: capitalize;
+}
+.data {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 300px;
+}
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#p-first-letter p:first-letter {
+  color: red;
+  font: 18px serif;
+}
+table tr:first-child {
+  height: 70px;
+}
+.footer {
+  height: 100px;
+  background-color: black;
+  color: aliceblue;
+}
+.contact {
+  float: right;
+  margin: 10px 10px 0 0;
+}
+.knopka {
+  color: #fff;
+  background: #ffa500;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #ff8247;
+  width: 150px;
+}
+.knopka:hover {
+  background: #ff6347;
+}
+.knopka:active {
+  background: green;
+  box-shadow: 0 3px 0 #00823f;
+}
+.link {
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
